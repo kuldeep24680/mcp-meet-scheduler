@@ -1,0 +1,18 @@
+[project]
+name = "mcp-meet-scheduler"
+version = "0.1.0"
+description = "Learning project: an MCP server + host that books Google Meet calls"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=2.3,<3",
+    "openai>=3.31",
+    "anthropic>=1.13",
+    "google-api-python-client>=2.150",
+    "google-auth-oauthlib>=1.2",
+    "python-dotenv>=1.0",
+    "tzdata",
+]
+
+[tool.uv]
+package = false

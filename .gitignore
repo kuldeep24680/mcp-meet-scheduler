@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- mcp-meet-scheduler: secrets & local state (never commit) ---
+credentials.json
+token.json
+token.bak
+server.log
